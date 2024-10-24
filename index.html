@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">IGNACIO RODRIGUEZ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">HOME</a></li>
+                    <li><a href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="select()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="select()">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION HOME -->
+    <section id="home" class="home">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/img_personal.jpg" alt="">
+            </div>
+            <h1>IGNACIO RODRIGUEZ</h1>
+            <h2>Computer Engineer - Computer Science Specialty</h2>
+            
+            
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p><span>Hello, is Ignacio RODRIGUEZ SENIS. </span> I am a third-year computer engineering student specializing in computing. Although I love what I study and I consider it a hobby, I also have many others. 
+                This is why, in this tab, you will find some of the hobbies that I like the most, along with some personal information so that you can get to know me better.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal data</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-03-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 629662745
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            irodriguez.ir20206@esaip.org
+                        </li>
+                        <li>
+                            <strong>University</strong>
+                            https://esi.uclm.es
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Paseo Universidad, 4, 13071 Ciudad Real
+                        </li>
+                        <li>
+                            <strong>Academic training</strong>
+                            <span>Computer Engineer - Computer Science</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>hobbies</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LECTURE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVELING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-bicycle"></i>
+                            <span>CYCLING</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTORBIKE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/file/d/1GeaUe-R8QHYKCzpk0IS9L0LTPu181uBz/view?usp=sharing" target="_blank">
+                <button>
+                  Download CV <i class="fa-solid fa-download"></i>
+                  <span class="overlay"></span>
+                </button>
+            </a>
+            <style>
+                a {
+                  text-decoration: none;
+                }
+            </style>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C/C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Prolog</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL/SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Matlab/Octave</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Network Administration</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Performance</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem Resolution</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Detail Oriented</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Secondary Studies</h4>
+                        <span class="casa">El Valle School</span>
+                        <span class="fecha">2015 - 2019</span>
+                        <p>This school called "El Valle" is located in the town of Sanchinarro, Madrid, Spain.
+                            In this school I got my secondary education, obtaining the title of ESO.
+                            This school is characterized by its high level of education and its bilingual, letting me get a good level of English.
+                        </p>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>High School Diploma</h4>
+                        <span class="casa">IES Aldebarán</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>I completed my high school education at IES Aldebarán, located in Alcobendas, Madrid, Spain. During my time at this institution,
+                             I pursued the Bachillerato, focusing on Sciences. This school is known for its strong 
+                             academic programs and supportive learning environment, which helped me further develop my skills and prepare for higher education.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>University Studies</h4>
+                        <span class="casa">UCLM </span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>Pursued a degree in Computer Engineering with a specialization in Computing at the University of Castilla-La Mancha (UCLM), located in Ciudad Real, Spain. This program has provided me with a strong foundation in various areas of computer science, including software development, algorithms, and artificial intelligence, preparing me for a career in the field of technology.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>University Studies</h4>
+                        <span class="casa">GROUPE Esaip </span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>Currently participating in an Erasmus program at GROUPE ESAIP, located in Angers, France, from September to December 2024. During this time, I have expanded my academic and technical expertise while gaining valuable international experience. After completing this program, I will return to Spain to finish my degree and undertake internships at a company to conclude my studies.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Working Experience</h3>
+                    <div class="item der">
+                        <h4>Catering</h4>
+                        <span class="casa">Workout Events</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>For one year, I worked on weekends at this enterprise, primarily in the events and catering department. My role involved assisting in the organization and execution of various events, which helped me develop key skills in time management, customer service, and teamwork.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Catering</h4>
+                        <span class="casa">Workout Events</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>In the following year, I continue working on weekends but I took on greater responsibilities at the same enterprise, extending my role to include larger, high-profile events such as weddings and restaurant management, in addition to the regular events. My duties evolved to not only assist in the execution of events but also to help in the coordination, manage the new teams, and ensure the smooth running of more complex functions. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Bot Chess with Python</h3>
+                        <p>Machine Learning</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Distributed Systems Design</h3>
+                        <p>Networks</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Project in Big Data Searches</h3>
+                        <p>Optimization</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Monitorizing Proyects</h3>
+                        <p>Proyect Management</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creation and Monitoring Servers</h3>
+                        <p>Networks</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Expert system to prewrite filters and magnifiers</h3>
+                        <p>Artificial Intelligence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACT</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Main matter">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Ciudad Real, España
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contact me: +34 629662745 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: irodriguez.ir2026@esaip.org
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -642,6 +642,50 @@ html{
     display: inline-block;
     margin-right: 20px;
 }
+
+/* Sección general */
+.contacto {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaciado entre la imagen y la información */
+}
+
+.contact-image {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    flex: 1; /* Ocupar el espacio restante */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borde del recuadro */
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    margin: 10px 0;
+    font-size: 16px; /* Aumenta la visibilidad */
+}
+
+.info i {
+    margin-right: 10px;
+    color: #007bff; /* Añade color a los iconos */
+}
+
 footer{
     background-color: #252A2E;
     color: #fff;

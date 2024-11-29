@@ -667,7 +667,7 @@ html{
     padding: 20px;
     border: 1px solid #ccc; /* Borde del recuadro */
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #e8f8f5  ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -679,11 +679,12 @@ html{
 .info li {
     margin: 10px 0;
     font-size: 16px; /* Aumenta la visibilidad */
+    color: #1e2326
 }
 
 .info i {
     margin-right: 10px;
-    color: #007bff; /* Añade color a los iconos */
+    color: #1e2326 ; /* Añade color a los iconos */
 }
 
 footer{
